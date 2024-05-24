@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Cloud Cover",
+  "version": "0.0.1",
+  "description": "Your pocket weather peek",
+  "icons": {
+    "16": "images/cloudy-night_16.png",
+    "32": "images/cloudy-night_32.png",
+    "128": "images/cloudy-night_128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "images/cloudy-night_128.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["popup.js"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "permissions": ["geolocation"]
+}

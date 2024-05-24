@@ -1,0 +1,11 @@
+body {
+    min-width: 150px;
+    border-radius: 50px;
+    background-color: #2c0076;
+}
+
+#info {
+    color: #d9ceff;
+    font-size: medium;
+    font-weight: bold;
+}
