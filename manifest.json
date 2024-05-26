@@ -4,13 +4,14 @@
   "version": "0.0.1",
   "description": "Your pocket weather peek",
   "icons": {
-    "16": "images/cloudy-night_16.png",
-    "32": "images/cloudy-night_32.png",
-    "128": "images/cloudy-night_128.png"
+    "16": "images/cloud16.png",
+    "32": "images/cloud32.png",
+    "48": "images/cloud48.png",
+    "128": "images/cloud128.png"
   },
   "action": {
     "default_popup": "popup.html",
-    "default_icon": "images/cloudy-night_128.png"
+    "default_icon": "images/cloud128.png"
   },
   "content_security_policy": {
     "extension_pages": "script-src 'self'; object-src 'self'"

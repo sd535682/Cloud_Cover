@@ -1,7 +1,6 @@
 body {
     min-width: 150px;
-    border-radius: 50px;
-    background-color: #2c0076;
+    background-image: linear-gradient(to bottom right, #315947, #102622);
 }
 
 #info {
@@ -9,3 +8,7 @@ body {
     font-size: medium;
     font-weight: bold;
 }
+/* background-image: linear-gradient(to bottom right, #27668C, #1D4259); */
+/* background-image: linear-gradient(to bottom right, #315947, #102622); */
+/* background-image: linear-gradient(to bottom right, #395D73, #092126); */
+/* background-image: linear-gradient(to bottom right, #557373, #012E40); */
